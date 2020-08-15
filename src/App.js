@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-
+import ReactDOM from  'react-dom';
 import Pages from './pages';
 
-import './App.css';
 
 function App() {
     const [user, setUser] = useState(null);
